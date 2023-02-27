@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+   
+  
+  }
+datalist{
+  display: flex;
+  flex-direction: column;
+ color: rgb(255, 255, 255);
+ background-color: rgba(128, 128, 128, 0.216);
+ position: absolute;
+ z-index: 2;
+ gap: 10px;
+ top: 35%;
+ left: 50%;
+transform: translate(-50%,-50%);
+cursor: pointer;
+border-radius: 10px;
+}
+.option img{
+  width: 20px;
+  height: 30px;
+}
+.option{
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option:hover{
+  color: rgb(159, 159, 226);
+  font-weight: 900;
+}
+
+
+  .website_name{
+    height: 100%;
+    width: 30%;
+    display: flex;
+  
+   color: white;
+  
+   display: flex;
+  }
+  .search_bar{
+    height: 60%;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .casting{
+    height: 100%;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon{
+    width: 40%;
+    display: flex ;
+    justify-content: center;
+    
+    align-items: center;
+  }
+  .orginal_name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .input_tag{
+   
+    width: 90%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+  }
+  .search_icon{
+   
+    width: 10%;
+    height: 70%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: 1px solid white;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .input_tag input{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px 0px 0px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .notification{
+    width: 20%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 20vh;
+    color: white;
+    
+  }
+  .org_casting{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .toggle-button{
+    font-size: 30px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    color: white;
+   visibility: hidden;
+  }
+
+  @media (max-width: 900px){
+    .toggle-button{
+     visibility: visible;
+    }
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+
+
+
+  .casting,.search_bar{
+    display: none
+  }
+}
+
+  @media (max-width: 491px){
+    .icon{
+     
+     display: none;
+    }
+    .orginal_name{
+          padding-left: 30px;
+    }
+  }
+
+@media (max-width:358px){
+  .toggle-button{
+    text-align: center;
+  }
+}

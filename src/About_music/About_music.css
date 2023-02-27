@@ -1,0 +1,6 @@
+.mainlyrics{
+    background-color: rgb(13, 29, 53);
+height: 89.3vh;
+display: flex;
+flex-direction: column;
+}

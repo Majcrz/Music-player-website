@@ -1,0 +1,332 @@
+.search_main{
+ width: 100%;
+ height: 89.3vh;
+ background-color: rgb(0, 0, 0);
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+}
+
+.subbody1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .malayalam_song1{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .malayalam_swiper1{
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    width: 165vh;
+    padding-left: 90px;
+  }
+  
+  
+  .swiper {
+    width: 130vh;
+    height: 200px;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swipermain1{
+    width: 100%;
+    height: 100%;
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+  
+  }
+  .swipermain1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  
+   
+  .cardbody1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(17px);
+    transition: 1s;
+  }
+  
+  .swipermain1:hover .cardbody1{
+    right: 0;
+  }
+  .card-title1{
+    color: rgb(255, 4, 4);
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .card-sub-title1{
+    color: rgb(47, 67, 255);
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 18px;
+  }
+  .card-info1{
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+  
+  }
+  .playbutton1{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+  }
+
+.artists{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.malayalam_artists{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.artist_swiper1{
+    padding: 30px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    width: 165vh;
+    padding-left: 90px;
+  }
+
+
+ .fullbodymain{
+
+  width: 100%;
+  
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+ } 
+.scroll{
+  overflow-y: scroll;
+  height: 100vh;
+}
+.scroll::-webkit-scrollbar{
+  display: none;
+}
+ .pic-and-details{
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  gap: 40px;
+ }
+ .related-title{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(0, 0, 0);
+ }
+ .related-data{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(0, 0, 0);
+ }
+
+ .pic-data{
+  height: 683px;
+  width: 300px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+
+ }
+ .pic-data img{
+  height: 360px;
+  width: 100%;
+  border-radius: 10px;
+ }
+ .details-data{
+  height: 100%;
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .song-name{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+ }
+
+.artist-name{
+  width: 100%;
+  height: 20%;
+  font-size: 19px;
+  padding-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+.album-name{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(0, 0, 0);
+  font-size: 19px;
+  padding-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: white;
+
+}
+
+.Duartion{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(0, 0, 0);
+  font-size: 19px;
+  padding-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.release-date{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(0, 0, 0);
+}
+.play-download{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  gap: 10px;
+ padding-left: 20px;
+}
+.play-button{
+  height: 45px;
+  width: 15%;
+  border-radius: 50px;
+  background-color: #fd6f53;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.main-button{
+  height: 100%;
+  width: 50%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.main-icon{
+  height: 100%;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-right: 40px;
+  padding-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-button{
+  height: 45px;
+  width: 20%;
+  background-color: rgb(227, 43, 43);
+  border-radius: 50px;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ cursor: pointer;
+}
+
+
+
+.main-button1{
+  height: 100%;
+  width: 50%;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.main-icon1{
+  height: 100%;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-right: 40px;
+  padding-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.like-button{
+  height: 45px;
+  width: 50px;
+  background-color: rgb(51, 50, 50);
+  clip-path: circle();
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
